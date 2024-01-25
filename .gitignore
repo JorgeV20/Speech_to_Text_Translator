@@ -5,3 +5,7 @@
 #Other files#
 *.txt
 *.wav
+*.pyc
+
+#folders
+__pycache__
