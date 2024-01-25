@@ -1,0 +1,7 @@
+#Packages#
+
+*.zip
+
+#Other files#
+*.txt
+*.wav
