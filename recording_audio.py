@@ -19,7 +19,9 @@ def recording(wav_output_filename):
     wav_output_filename = wav_output_filename # name of .wav file
     
     audio = pyaudio.PyAudio() # create pyaudio instantiation
-    
+    print('You will have '+ record_secs +'to record')
+    print('Start speaking when you see the message recording')
+
     # create pyaudio stream
     stream = audio.open(format = form_1,rate = samp_rate,channels = chans, input = True,frames_per_buffer=chunk)
     print("recording")
