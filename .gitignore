@@ -8,7 +8,6 @@
 
 #folders
 __pycache__/
-<<<<<<< HEAD
 *.pyc
 
 training/wandb/
