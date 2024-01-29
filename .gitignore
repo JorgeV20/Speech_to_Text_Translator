@@ -7,7 +7,8 @@
 *.wav
 
 #folders
-__pycache__/
+__pycache__/*.pyc
+__pycache__/recording_audio.cpython-39.pyc
 
 training/wandb/
 
@@ -21,6 +22,3 @@ training/data/english_to_spanish/sacrebleu
 training/data/english_to_spanish/models--google--mt5-small
 training/data/english_to_spanish/mt5-small_en-sp
 training/data/english_to_spanish/*.rar
-=======
-*.pyc
->>>>>>> b30549ef79fe0ce7c5da75a36376b064e0ae1fc8
