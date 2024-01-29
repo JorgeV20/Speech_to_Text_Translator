@@ -23,3 +23,4 @@ def get_audio(file_name):
         
         print(text)
 
+    return text
