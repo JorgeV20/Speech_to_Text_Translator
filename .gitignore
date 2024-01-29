@@ -5,7 +5,20 @@
 #Other files#
 *.txt
 *.wav
-*.pyc
 
 #folders
-__pycache__
+__pycache__/
+*.pyc
+
+training/wandb/
+
+training/data/.ipynb_checkpoints/
+
+training/data/english_to_spanish/.ipynb_checkpoints/
+training/data/english_to_spanish/.locks
+training/data/english_to_spanish/bleu
+training/data/english_to_spanish/rouge
+training/data/english_to_spanish/sacrebleu
+training/data/english_to_spanish/models--google--mt5-small
+training/data/english_to_spanish/mt5-small_en-sp
+training/data/english_to_spanish/*.rar
