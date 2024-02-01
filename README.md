@@ -16,4 +16,4 @@ Speech to Text Translator is an application developed in python and trained usin
 The mT5 model was finetuned using 10 000 samples and it took 3h 49min in a ml.t3.2xlarge instance.
 
 ## Future work
-- Retrain the model with more samples in order to increase the performance.
+Retrain the model with more samples in order to increase the performance.
